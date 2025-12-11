@@ -544,7 +544,7 @@ function backupData() {
 
 }
 function askForAction() {
-    local DEFAULT_ACTION=$1
+    local DEFAULT_ACTION=$5
 
     if [ -z "$DEFAULT_ACTION" ];
     then
